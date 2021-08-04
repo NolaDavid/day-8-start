@@ -21,3 +21,8 @@ def greet_with(name, location):
   print(f'Hello  my name is {name}, and im from {location}')
 
 greet_with('David', 'Phoenix')
+
+def greeting(name = 'Bryan', location = 'Phoenix'):
+  print(f'Hey {name} I cant wait to move to {location}')
+
+greeting()
